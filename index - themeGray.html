@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <title>StartPage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/style 2.css">
+    <script src="js/search.js"></script>
+	<script src="js/time.js"></script>	
+	<script src="js/date.js"></script>	
+	<meta name="theme-color" content="#222">
+</head>
+
+<body onload="startTime();startDate();">
+<div class="container">
+      <h1 id="time"></h1>
+      <p id="date"></p>
+      <form  id="js-search-form" autocomplete="off">
+	      <input id="js-search-input" class="search-input" type="text" placeholder="Search" autofocus>
+	      <input type="submit" style="display: none" onclick="return interpretSearch()">
+      </form>
+</div>
+
+<div class="section">
+    <div class="list uni">
+         <h1>University</h1>
+         <ul>
+             <li><a href="https://www.sheffield.ac.uk/muse/all-services" target="_blank">MUSE - All services</a></li>
+             <li><a href="https://careerconnect.sheffield.ac.uk/student/bookings.html?execution=e1s1" target="_blank">Career Connect</a></li>
+             <li><a href="https://www.sheffield.ac.uk/timetabling/ical" target="_blank">myModuleTimetable</a></li>
+             <li><a href="https://vle.shef.ac.uk/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_113_1" target="_blank">MOLE</a></li>
+             <li><a href="http://su.sheffield.ac.uk/" target="_blank">Students' Union</a></li>
+             <!--<li><a href="" target="_blank"></a></li>	
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>
+             <li><a href="" target="_blank"></a></li>-->	
+         </ul>
+    </div>
+
+    <div class="list ess">
+         <h1>Essential Tools</h1>
+         <ul>
+             <li><a href="https://www.paypal.com/myaccount/home" target="_blank">PayPal</a></li>
+             <li><a href="https://online.bulbank.bg/page/default.aspx?xml_id=/bg-BG/.loginAll" target="_blank">Bulbank Online</a></li>
+             <li><a href="https://retail.santander.co.uk/LOGSUK_NS_ENS/BtoChannelDriver.ssobto?dse_operationName=LOGONhttp://www.reddit.com/r/MicrosoftBand/" target="_blank">Santander Online Banking</a></li>
+             <li><a href="https://www.giffgaff.com/dashboard" target="_blank">My giffgaff | giffgaff</a></li>
+             <li><a href="http://www.accuweather.com/en/gb/sheffield/s1-2/weather-forecast/326914" target="_blank">AccuWeather.com</a></li>
+        </ul>
+    </div>
+
+    <div class="list social1">
+         <h1>Social Media 1</h1>  
+         <ul>
+             <li><a href="https://web.whatsapp.com/" target="_blank">Whatsapp Web</a></li>
+             <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+             <li><a href="http://deviantart.com/" target="_blank">DevianArt</a></li>
+             <li><a href="http://www.tvshowtime.com/en" target="_blank">TvShowTime</a></li>
+             <li><a href="https://www.reddit.com/" target="_blank">Reddit</a></li> 
+	         <li><a href="http://mail.bg/" target="_blank">Mail.bg</a></li> 
+        </ul>
+    </div>
+
+    <div class='list social2'>
+        <h1>Social Media 2</h1>
+        <ul>
+             <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+             <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+             <li><a href="https://myanimelist.net" target="_blank">MyAnimeList</a></li>
+             <li><a href="https://uk.linkedin.com" target="_blank">Linkedin</a></li>
+             <li><a href="https://github.com" target="_blank">Github</a></li>    
+        </ul>
+    </div>
+
+    <div class="list fun">
+        <h1>Entertainment</h1>
+        <ul>
+            <li><a href="https://www.youtube.com/feed/subscriptions" target="_blank">Youtube</a></li>
+            <li><a href="http://www.twitch.tv/" target="_blank">Twitch</a></li>
+            <li><a href="http://store.steampowered.com/" target="_blank">Steam</a></li>
+            <li><a href="https://discordapp.com/channels/@me" target="_blank">Discord web app</a></li>
+            <li><a href="https://play.spotify.com/collection" target="_blank">Spotify</a></li>  
+        </ul>
+    </div>
+
+	<div class="list">
+        <h1>Personal sites</h1>
+        <ul>
+            <li><a href="http://jaska.co/" target="_blank">Portfolio</a></li>
+            <li><a href="https://privateemail.com/appsuite/" target="_blank">Private email</a></li>
+            <li><a href="http://clearshift.me/" target="_blank">ClearShift</a></li>  
+	        <li><a href="https://github.com/Jasius?tab=repositories" target="_blank">Repos</a></li>
+            <li><a href="http://blog.jaska.co/" target="_blank">DevBlog</a></li>
+       </ul>
+    </div>
+</div>
+
+<div class="section main">
+	<div class="list uni">
+		<h1>Module Pages</h1>
+		<ul>
+			<li> <a href="https://trello.com/b/Xpqpd8HJ/portfoliohttp://staffwww.dcs.shef.ac.uk/people/S.North/teaching/COM1003/index.html" target="_blank">Java</a></li>
+			<li> <a href="https://staffwww.dcs.shef.ac.uk/people/R.Gaizauskas/campus_only/com1005/" target="_blank">AI</a></li>
+			<li> <a href="https://staffwww.dcs.shef.ac.uk/people/D.Sudholt/campus_only/com1006/" target="_blank">Devices and Networks</a></li>
+			<li> <a href="https://staffwww.dcs.shef.ac.uk/people/S.Maddock/campus_only/com1008/lectureNotes.shtml" target="_blank">Web and Internet </a></li>
+			<li> <a href="https://vle.shef.ac.uk/webapps/blackboard/content/contentWrapper.jsp?content_id=&displayName=MyEcho&course_id=_54530_1&navItem=content&href=/webapps/osc-BasicLTI-BBLEARN/frame.jsp%3Fcourse_id%3D_54530_1%26mode%3Dview%26id%3Dmyechoalp" target="_blank">MyEcho</a></li>			
+		</ul>
+	</div>
+	
+	<div class="list uni">
+		<h1>Tasks mod</h1>
+		<ul>
+			<li> <a href="https://trello.com/b/Xpqpd8HJ/portfolio" target="_blank">Portfolio</a></li>
+			<li> <a href="https://trello.com/b/0Eue6QI6/clearshift" target="_blank">ClearShift</a></li>
+			<li> <a href="https://trello.com/b/fumBCbBM/windows-10" target="_blank">Microsoft community</a></li>
+		</ul>
+	</div>
+	
+	<div class="list sosial1">
+		<h1>Web tools</h1>		
+		<ul>
+			<li> <a href="https://color.adobe.com/explore/most-popular/?time=all" target="_blank">Adobe.CC</a></li>
+			<li> <a href="https://icons8.com/" target="_blank">Icons8</a></li>
+			<li> <a href="http://achecker.ca/checker/index.php" target="_blank">Accesibility checker</a></li>
+		</ul>
+	</div>
+	
+	<div class="list social2">
+		<h1>Travel</h1>		
+		<ul>
+			<li> <a href="http://litrail.lt" target="_blank">Litrail</a></li>
+			<li> <a href="https://trafi.lt" target="_blank">Trafi</a></li>
+			<li> <a href="https://www.google.lt/maps" target="_blank">Google maps</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+  
+</html>
