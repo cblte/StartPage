@@ -6,7 +6,7 @@ This is custom startpage for your browser.
 
 It features two themes: Green and Gray.
 
-##How to install##
+##How to install?##
 Go to your browser's homepage settings and replace the current one with the
 directory of StartPage. And you're done.
 
