@@ -14,7 +14,7 @@ or
 
 Install the Chrome extention New Tab Redirect to replace the new tab with StartPage.
 
-##Future Iterations##
+##Future Versions##
 
 This is what a I plan to include:
 
