@@ -19,6 +19,9 @@ Install the Chrome extention New Tab Redirect to replace the new tab with StartP
 This is what a I plan to include:
 
 1. Note Html file
+2. Icons
+3. Weather
+4. Clean code
 
 ##License##
 
