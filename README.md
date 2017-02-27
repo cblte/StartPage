@@ -6,7 +6,7 @@ This is custom startpage for your browser.
 It features two themes: Green and Gray.
 
 You can check the Green Theme here:
-**Demo:** [https://mlvnt.github.io/StartPage/](Green Theme)
+**Demo:** [Green Theme](https://mlvnt.github.io/StartPage/)
 
 It looks like this:
 
