@@ -1,29 +1,44 @@
-#StartPage#
+# StartPage
 
-##What is StartPage?##
+## What is StartPage?
 
 This is custom startpage for your browser.
-
 It features two themes: Green and Gray.
 
-##How to install?##
-Go to your browser's homepage settings and replace the current one with the
-directory of StartPage. And you're done.
+You can check the Green Theme here:
+**Demo:** [https://mlvnt.github.io/StartPage/](Green Theme)
 
-or
+It looks like this:
+
+![Green Theme](https://github.com/mlvnt/StartPage/raw/master/assets/images/green-theme.png)
+
+And it's responsive:
+
+![Resposive Green Theme](https://github.com/mlvnt/StartPage/raw/master/assets/images/green-theme-responsive.png)
+
+## How to install?
+
+Go to your browser's homepage settings and replace the current homepage with the
+directory on your local machine in which your StartPage is stored. 
+
+OR
 
 Install the Chrome extention New Tab Redirect to replace the new tab with StartPage.
 
-##Future Versions##
+And you're ready to go :-)
+
+## Future Iterations
 
 This is what a I plan to include:
 
-1. Note Html file
+1. Notes
 2. Icons
 3. Weather
-4. Clean code
+4. Clean Code
+5. Integrated Javascript Theme Changer
+6. Minified CSS for the themes
 
-##License##
+## License
 
 The code is licensed under the MIT License.
 
