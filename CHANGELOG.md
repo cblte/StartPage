@@ -14,4 +14,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - README
 - Project initial HTML, CSS & JS
 
-[v0.0.1]: https://github.com/mlvnt/StartPage/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/mlvnt/StartPage/compare/v0.0.1...HEAD
