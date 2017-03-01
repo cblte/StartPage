@@ -10,7 +10,7 @@ This is a custom startpage template for links of favourite sites.
 + Themes
 
 It has two themes: Green and Gray
-You can check them here: [**Demos**](https://mlvnt.github.io/StartPage/)
+You can check them here: [**Demo**](https://mlvnt.github.io/StartPage/)
 
 It looks like this:
 
