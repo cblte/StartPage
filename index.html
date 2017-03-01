@@ -5,21 +5,38 @@
     <meta charset="UTF-8">
     <title>StartPage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="assets/css/style 1.css">
-    <script src="assets/js/search.js"></script>
+	<meta name="theme-color" content="#222">	
+    <script src="assets/js/jquery-3.1.1.min.js"></script>		
+	<script src="assets/js/js.cookie.js"></script>
+	<script src="assets/js/theme.js"></script>	
 	<script src="assets/js/time.js"></script>	
 	<script src="assets/js/date.js"></script>	
-	<meta name="theme-color" content="#222">
+	<script src="assets/js/search.js"></script>	
+    <link id="stylesheet" rel="stylesheet" href="assets/css/minified/green.css">
 </head>
 
 <body onload="startTime();startDate();">
+	
+<div class="themes">
+    <div class="buttons">
+        <ul>   
+            <li class="enable"><a onclick='$( ".theme" ).toggle( "slow", function() {});'>Themes</a></li>
+            <li class="theme"><a onclick='setTheme("green")'>Green</a></li> 
+            <li class="theme"><a onclick='setTheme("gray")'>Gray</a></li>
+        </ul>
+    </div>
+</div>
+
 <div class="container">
       <h1 id="time"></h1>
       <p id="date"></p>
-      <form  id="js-search-form" autocomplete="off">
+	  <div>
+      <form  id="js-search-form" autocomplete="on">
 	      <input id="js-search-input" class="search-input" type="text" placeholder="Search" autofocus>
 	      <input type="submit" style="display: none" onclick="return interpretSearch()">
+	      <button class="button button1" type="reset">Clear</button>		  
       </form>
+	  </div>
 </div>
 
 <div class="section">
@@ -131,6 +148,14 @@
 			<li> <a href="http://litrail.lt" target="_blank">Litrail</a></li>
 			<li> <a href="https://trafi.lt" target="_blank">Trafi</a></li>
 			<li> <a href="https://www.google.lt/maps" target="_blank">Google maps</a></li>
+		</ul>
+	</div>	
+	
+	<div class="list social2">
+		<h1>Local Files</h1>		
+		<ul>
+			<li> <a href="assets/files/notes.txt" target="blank">Notes</a></li>
+			<li> <a href="#" target="blank">Manual</a></li>
 		</ul>
 	</div>
 </div>
