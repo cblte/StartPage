@@ -7,7 +7,7 @@ This is a custom startpage template for links of favourite sites.
 
 ## Features
 
-1. Themes
++ Themes
 
 It has two themes: Green and Gray
 You can check the Green Theme here:
@@ -21,7 +21,7 @@ And it's responsive:
 
 ![Resposive Green Theme](https://github.com/mlvnt/StartPage/raw/master/assets/images/green-theme-responsive.png)
 
-2. Integrated Search
++ Integrated Search
 
 By typing `comand + "search content"` in the search bar you can search directly in several sites.
 If you want to view the list of available comands on the StartPage simply type `?` in the search bar.
@@ -37,7 +37,7 @@ If you don't use any of this comands the query you type is going to be processed
 | tw: | TWITCH      |
 | y: | YOUTUBE      |  
 
-3. Link Local Files
++ Link Local Files
 
 ## How to install?
 
