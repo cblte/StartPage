@@ -1,3 +1,10 @@
+
+var searchHelp = {
+     "?": function(search) {
+		 return alert("\n##  ?    ##    HELP\n\n##  a:    ##    AMAZON\n\n##  f:    ##    FACEBOOK\n\n##  r:    ##    REDDIT\n\n##  t:    ##    TWITTER\n\n##  tw:  ##    TWITCH\n\n##  y:    ##    YOUTUBE\n");
+    }, 
+}
+
 var searchProviders = {
     "t": function(search) {
         return "https://twitter.com/" + search;
@@ -28,15 +35,17 @@ var searchProviders = {
 function interpretSearch() {
     var search = document.getElementById("js-search-input").value.split(" ");
     console.log(search[0]);
-    
     var providerName = search[0].replace(/:/g, "");
+	var searchText = search.join(" ");
+	
     if (search[0].endsWith(":") &&  searchProviders[providerName]) {
-        search.shift();
-        var searchText = search.join(" ");
+        search.shift();      
         window.open(searchProviders[providerName](searchText), "_blank");
+    }else if (search[0].endsWith("?") &&  searchHelp[providerName]) {
+        search.shift();
+        window.open(searchHelp[providerName](searchText), "_self");
     }else {
-        var searchText = search.join(" ");
         window.open("https://google.com/search?q=" + searchText,  "_blank");
     }
-    return true;
+    return false;
 };
