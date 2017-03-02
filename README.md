@@ -22,19 +22,24 @@ And it's responsive:
 
 + Integrated Search
 
-By typing `comand + "search content"` in the search bar you can search directly in several sites.
+By typing `comand + "what you want to search"` in the search bar you can search directly in several sites.
 If you want to view the list of available comands on the StartPage simply type `?` in the search bar.
 If you don't use any of this comands the query you type is going to be processed by the default search engine - Google.
 
 | Comand      | Corresponding Sites          |
 | ------------- |:-------------:|
 | ?      | HELP |
-| a:      | AMAZON     |
-| f: | FACEBOOK      |
+| a:      | AMAZON |
+| d:      | GOOGLE DRIVE |
+| G:       | FACEBOOK |
+| g:       | GITHUB |
+| i:       | INSTAGRAM |
+| m:       | MYANIMELIST |
 | r:      | REDDIT |
-| t:      | TWITTER     |
-| tw: | TWITCH      |
-| y: | YOUTUBE      |  
+| t:      | TWITTER |
+| tw:    | TWITCH  |
+| w:      | WIKIPEDIA  |  
+| y:      | YOUTUBE  |  
 
 + Link Local Files
 
@@ -58,11 +63,15 @@ This is what a I plan to include:
 5. More Themes
 6. Minified CSS, HTML & JS
 7. Calendar
+8. Thor sites list
+9. Favicon
+10. Bug Report section
 
 ## Projects that I used
 
 1. [Frontpage by Jasius](https://github.com/Jasius/Frontpage) 
 2. [primetoxinz.github.io by primetoxinz](https://github.com/primetoxinz/primetoxinz.github.io) 
+3. [Tilde by cadejscroggins](https://github.com/cadejscroggins/tilde) 
 
 ## License
 

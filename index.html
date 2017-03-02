@@ -5,18 +5,16 @@
     <meta charset="UTF-8">
     <title>StartPage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<meta name="theme-color" content="#222">	
-    <script src="assets/js/jquery-3.1.1.min.js"></script>		
-	<script src="assets/js/js.cookie.js"></script>
-	<script src="assets/js/theme.js"></script>	
+	<meta name="theme-color" content="#222">			
+	<script src="assets/js/js.cookie.js"></script>	
 	<script src="assets/js/time.js"></script>	
 	<script src="assets/js/date.js"></script>	
-	<script src="assets/js/search.js"></script>	
+	<script src="assets/js/searchOne.js"></script>
     <link id="stylesheet" rel="stylesheet" href="assets/css/minified/green.css">
 </head>
 
 <body onload="startTime();startDate();">
-	
+
 <div class="themes">
     <div class="buttons">
         <ul>   
@@ -30,18 +28,19 @@
 <div class="container">
       <h1 id="time"></h1>
       <p id="date"></p>
-	  <div>
-      <form  id="js-search-form" autocomplete="on">
-	      <input id="js-search-input" class="search-input" type="text" placeholder="Search" autofocus>
-	      <input type="submit" style="display: none" onclick="return interpretSearch()">
-	      <button class="button button1" type="reset">Clear</button>		  
-      </form>
-	  </div>
+  <form id="js-search-form" autocomplete="off">
+  <div id="search-bar">
+    <input id="js-search-input" class="search-input" type="text" placeholder="Search" autofocus>
+
+	<button class="button button1" type="submit">Enter</button>	
+  </div>
+  </form>	  
 </div>
 
+<div class="links">
 <div class="section">
     <div class="list uni">
-         <h1>University</h1>
+		<h1>University</h1>
          <ul>
              <li><a href="https://www.sheffield.ac.uk/muse/all-services" target="_blank">MUSE - All services</a></li>
              <li><a href="https://careerconnect.sheffield.ac.uk/student/bookings.html?execution=e1s1" target="_blank">Career Connect</a></li>
@@ -159,6 +158,11 @@
 		</ul>
 	</div>
 </div>
+</div>
+		<script src="assets/js/searchTwo.js"></script>
+		<script src="assets/js/jquery-3.1.1.min.js"></script>
+		<script src="assets/js/theme.js"></script>
+		
 </body>
   
 </html>
