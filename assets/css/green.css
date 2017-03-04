@@ -97,23 +97,9 @@ input, input:focus {
     margin: 0;
     padding: 10px 20px;
     font-size: 25px;
-	font: bold;
+	font-weight: bold;
+	border-bottom: 1px solid #29B6F6;
  }
-
-.uni h1 { 
-  background: 	#249ee7; }
-
-.ess h1 {
-  background: #249ee7; }
-
-.social2 h1 {
-  background: #249ee7; }
-
-.fun h1 {
-  background: #249ee7; }
-
-.social1 h1 {
-  background: #249ee7; }
 
  /* Google */
 .container {
@@ -211,7 +197,7 @@ input, input:focus {
 @media only screen and (max-width: 45em) {
 
   .list {
-    max-width: 95vw; }
+    max-width: 85vw; }
 	
   .list ul {
     -webkit-transition: 800ms max-height ease-out;
