@@ -5,7 +5,7 @@
   var config = {
     categories: [
       { commands: [	
-        { key: '?', name: 'Manual', url: 'assets/files/README.md.pdf' },
+        { key: '?', name: 'Manual', url: 'assets/files/Commands.pdf' },
         { key: 'a', name: 'Amazon', url: 'https://www.amazon.co.uk/', search: '/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' },	
         { key: 'd', name: 'Drive', url: 'https://drive.google.com/drive', search: '/search?q=' },				
         { key: 'f', name: 'Facebook', url: 'https://www.facebook.com', search: '/search/top/?q=' },

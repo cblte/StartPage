@@ -22,7 +22,7 @@ And it's responsive:
 + Integrated Search
 
 By typing `command + "what you want to search"` in the search bar you can search directly in several sites.
-If you want to view the list of available comands on the StartPage open the link `Commands` under `Local Files` Section.
+If you want to view the list of available comands on the StartPage open the link `Commands` under `Local Files` Section or `?` in the search bar.
 If you don't use any of this comands the query you type is going to be processed by the default search engine - Google.
 
 | Command      | Corresponding Sites          |
