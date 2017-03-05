@@ -67,6 +67,7 @@ Planned to be include or tweaked:
 10. Bug Report section
 11. Manual & Commands Button
 12. Footer
+13. Add SCSS
 
 ## Projects Used
 
