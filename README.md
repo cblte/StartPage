@@ -11,8 +11,7 @@ This is a custom startpage template for links of favourite sites.
 
 It has two themes: Green and Gray
 You can check them here: [**Demo**](https://mlvnt.github.io/StartPage/)
-
-It looks like this:
+The Green theme looks like this:
 
 ![Green Theme](https://github.com/mlvnt/StartPage/raw/master/assets/images/green-theme.png)
 
@@ -54,7 +53,7 @@ Install the Chrome extention New Tab Redirect to replace the new tab with StartP
 
 ## Future Iterations
 
-This is what a I plan to include:
+Planned to be include or tweaked:
 
 1. Notes
 2. Icons
@@ -69,7 +68,7 @@ This is what a I plan to include:
 11. Manual & Commands Button
 12. Footer
 
-## Projects that I used
+## Projects Used
 
 1. [Frontpage by Jasius](https://github.com/Jasius/Frontpage) 
 2. [primetoxinz.github.io by primetoxinz](https://github.com/primetoxinz/primetoxinz.github.io) 
