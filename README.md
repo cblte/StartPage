@@ -68,6 +68,7 @@ Planned to be include or tweaked:
 11. Manual & Commands Button
 12. Footer
 13. Add SCSS
+14. Database
 
 ## Projects Used
 
