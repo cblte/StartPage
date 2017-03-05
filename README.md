@@ -22,11 +22,11 @@ And it's responsive:
 
 + Integrated Search
 
-By typing `comand + "what you want to search"` in the search bar you can search directly in several sites.
-If you want to view the list of available comands on the StartPage simply type `?` in the search bar.
+By typing `command + "what you want to search"` in the search bar you can search directly in several sites.
+If you want to view the list of available comands on the StartPage open the link `Commands` under `Local Files` Section.
 If you don't use any of this comands the query you type is going to be processed by the default search engine - Google.
 
-| Comand      | Corresponding Sites          |
+| Command      | Corresponding Sites          |
 | ------------- |:-------------:|
 | ?      | HELP |
 | a:      | AMAZON |
@@ -59,13 +59,15 @@ This is what a I plan to include:
 1. Notes
 2. Icons
 3. Weather
-4. Clean Code
+4. Cleaner Code
 5. More Themes
 6. Minified CSS, HTML & JS
 7. Calendar
 8. Thor sites list
 9. Favicon
 10. Bug Report section
+11. Manual & Commands Button
+12. Footer
 
 ## Projects that I used
 
@@ -76,5 +78,3 @@ This is what a I plan to include:
 ## License
 
 The code is licensed under the MIT License.
-
-
