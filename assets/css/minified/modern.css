@@ -6,9 +6,9 @@
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
-  color: white;
-  background: #45B9A6; }
-
+  color: white; 
+  background: #222;}
+  
 body::-webkit-scrollbar {
     display: none; }	
 	
@@ -32,12 +32,12 @@ a {
 input, input:focus {
 	height: 100%;
     width: 85%;
-    background: #fff;
+    background: #222222;
     -webkit-appearence: none;
     -moz-appearance: none;
     -ms-appearance: none;
     outline: none;
-    color: black;
+    color: white;
     font-size: 18px;
     border: none;
     padding: 0 10px;
@@ -68,13 +68,13 @@ input, input:focus {
     padding: 0; }
 
     .list ul li {
-      background: 	#15c3ad;
+      background: 	rgba(68, 68, 68, 0.9);
       height: 40px;
       color: #eee;
       line-height: 40px; }
 
       .list ul li:hover, .list ul li:nth-child(2n):hover {
-        background: #2d2d2d; 
+        background:#2d2d2d; 
 		border-left: 2px solid white;
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
@@ -85,16 +85,16 @@ input, input:focus {
         display: block; }
 
       .list ul li:nth-child(2n) {
-        background: 	#18dac2; }
+        background: 	rgba(51, 51, 51, 0.9); }
 
   .list h1 {
     position: relative;
-    background: #249ee7;
-    color: #eee;
+    background: #898989;
+    color: #222;
     margin: 0;
     padding: 10px 20px;
     font-size: 25px;
-	border-bottom: 1px solid #29B6F6;
+	border-bottom: 1px solid #B0BEC5;	
  }
 
  /* Google */
@@ -140,7 +140,8 @@ input, input:focus {
       .buttons ul li a {
         padding-left: 15px;
         padding-right: 15px;
-        display: block; }
+        display: block; 
+		color: white;}
       .buttons ul li:nth-child(2n) {
         background: rgba(51, 51, 51, 0.9); }  
 
@@ -193,15 +194,15 @@ input, input:focus {
 @media only screen and (max-width: 45em) {
 
   .list {
-    max-width: 95vw; 
-    margin: 0;}
+    max-width: 95vw;
+	margin: 0;}
 	
   .list ul {
     -webkit-transition: 800ms max-height ease-out;
     transition: 800ms max-height ease-out;
     overflow: hidden;
-    max-height: 0px;
-	transition-delay: 0.2s;}
+    max-height: 0px; 
+    transition-delay: 0.2s;}
 
   .list:hover > ul, .list:hover ul li {
     max-height: 800px;
@@ -233,3 +234,19 @@ input, input:focus {
 			      background-color: #f1f1f1;
 			  }
 	}
+
+/* New rules*/	
+body {
+  background-image: url("../../images/forest.jpeg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.list h1 {
+  opacity: .9; }	
+  
+ .list ul li {
+  opacity: 0.9;
+	 } 

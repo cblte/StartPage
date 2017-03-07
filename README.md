@@ -9,15 +9,15 @@ This is a custom startpage template for links of favourite sites.
 
 + Themes
 
-It has two themes: Green and Gray
+It has three responsive themes: Green, Gray & Modern
 You can check them here: [**Demo**](https://mlvnt.github.io/StartPage/)
-The Green theme looks like this:
+The default theme is Modern. It looks like this:
 
-![Green Theme](https://github.com/mlvnt/StartPage/raw/master/assets/images/green-theme.png)
+![Modern Theme](assets/images/modern-theme.png)
 
-And it's responsive:
+On mobile:
 
-![Resposive Green Theme](https://github.com/mlvnt/StartPage/raw/master/assets/images/green-theme-responsive.png)
+![Resposive Modern Theme](assets/images/modern-theme-responsive.png)
 
 + Integrated Search
 
