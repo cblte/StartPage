@@ -53,14 +53,11 @@ input, input:focus {
   flex-wrap: wrap;
   justify-content: center; }
 
-  .section.main {
-    margin-top: 20px; }
-
 .list {
   flex: 1 400px;
   display: block;
   max-width: 300px;
-  margin: 0 5px;
+  margin: 5px 5px;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); }
@@ -196,13 +193,15 @@ input, input:focus {
 @media only screen and (max-width: 45em) {
 
   .list {
-    max-width: 85vw; }
+    max-width: 95vw; 
+    margin: 0;}
 	
   .list ul {
     -webkit-transition: 800ms max-height ease-out;
     transition: 800ms max-height ease-out;
     overflow: hidden;
-    max-height: 0px; }
+    max-height: 0px;
+	transition-delay: 0.2s;}
 
   .list:hover > ul, .list:hover ul li {
     max-height: 800px;

@@ -12,7 +12,7 @@ function setTheme(theme) {
 function getTheme() {
     var t = Cookies.get("theme");
     if(t == null || t == "")
-    return "green";
+    return "modern";
 	return t;
 }
 
