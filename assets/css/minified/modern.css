@@ -193,14 +193,6 @@ input, input:focus {
   
 @media only screen and (max-width: 45em) {
 
-body {
-	background-image: url("../../images/forest.jpeg");
-    min-height: 800px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;}
-
   .list {
     max-width: 60vw;
 	margin: 0;}
@@ -246,7 +238,7 @@ body {
 /* New rules*/	
 body {
   background-image: url("../../images/forest.jpeg");
-    min-height: 800px;
+    min-height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
