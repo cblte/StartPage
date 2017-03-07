@@ -194,7 +194,7 @@ input, input:focus {
 @media only screen and (max-width: 45em) {
 
   .list {
-    max-width: 85vw;
+    max-width: 60vw;
 	margin: 0;}
 	
   .list ul {
@@ -245,7 +245,7 @@ body {
     background-size: cover;}
 
 .list h1 {
-  opacity: .9; }	
+  opacity: .7; }	
   
  .list ul li {
   opacity: 0.9;
