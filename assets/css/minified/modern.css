@@ -238,8 +238,9 @@ input, input:focus {
 /* New rules*/	
 body {
   background-image: url("../../images/forest.jpeg");
-    min-height: 100%;
+    max-width: none;
     background-attachment: fixed;
+    background-position: center;
     background-repeat: repeat;
     background-size: cover;}
 
