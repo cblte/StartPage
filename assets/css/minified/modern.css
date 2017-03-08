@@ -194,7 +194,7 @@ input, input:focus {
 @media only screen and (max-width: 45em) {
 
 body {
-    background: linear-gradient(blue,violet);}
+    background: linear-gradient(violet,blue);}
 
   .list {
     max-width: 60vw;
