@@ -238,12 +238,10 @@ input, input:focus {
 /* New rules*/	
 body {
   background-image: url("../../images/forest.jpeg");
-      width: 100%;
-  height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: auto;}
 
 .list h1 {
   opacity: .7; }	
