@@ -238,7 +238,6 @@ input, input:focus {
 /* New rules*/	
 body {
   background-image: url("../../images/forest.jpeg");
-  position: fixed;
 
 
   width: 100vw;
