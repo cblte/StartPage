@@ -193,8 +193,11 @@ input, input:focus {
   
 @media only screen and (max-width: 45em) {
 
+body {
+    background: linear-gradient(violet,blue);}
+
   .list {
-    max-width: 95vw;
+    max-width: 60vw;
 	margin: 0;}
 	
   .list ul {
@@ -236,16 +239,17 @@ input, input:focus {
 	}
 
 /* New rules*/	
+@media only screen and (min-width: 45em) {
 body {
-  background-image: url("../../images/forest.jpeg");
-    min-height: 500px;
+    background-image: url("../../images/forest.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;}
+}
 
 .list h1 {
-  opacity: .9; }	
+  opacity: .7; }	
   
  .list ul li {
   opacity: 0.9;
