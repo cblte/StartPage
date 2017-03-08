@@ -193,6 +193,9 @@ input, input:focus {
   
 @media only screen and (max-width: 45em) {
 
+body {
+    background: linear-gradient(blue,violet);}
+
   .list {
     max-width: 60vw;
 	margin: 0;}
@@ -236,20 +239,14 @@ input, input:focus {
 	}
 
 /* New rules*/	
+@media only screen and (min-width: 45em) {
 body {
-  background-image: url("../../images/forest.jpeg");
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  z-index: -1;
-  overflow: scroll;
-  width: 100vw;
-  height: 100%;
-  background-position: 50% 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;}
+    background-image: url("../../images/forest.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+}
 
 .list h1 {
   opacity: .7; }	
