@@ -53,7 +53,7 @@ Install the Chrome extention New Tab Redirect to replace the new tab with StartP
 
 ## Future Iterations
 
-Planned to be include or tweaked:
+Planned to be included or tweaked:
 
 1. Notes
 2. Icons
